@@ -140,6 +140,10 @@ docker run \
   -v "C:/temp/docudigger/:/home/node/docudigger" \
   ghcr.io/disane87/docudigger
 ```
+## If you run docker on an Mac with Apple Silicon you may run into some issues with Rosetta, try this:
+```
+docker pull ghcr.io/disane87/docudigger --platform linux/amd64
+```
 
 ## Dev-Time 🪲
 ### NPM
